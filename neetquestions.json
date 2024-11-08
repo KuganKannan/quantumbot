@@ -1,0 +1,40 @@
+{
+    "intents": [
+      {
+        "name": "important_topics_neet_biology",
+        "trainingPhrases": [
+          {
+            "parts": [
+              {
+                "text": "What are the important topics to focus on while preparing for the NEET exam in Biology?"
+              }
+            ]
+          }
+        ],
+        "responses": [
+          {
+            "text": "Key topics include Human Physiology, Plant Physiology, Genetics and Evolution, Ecology and Environment, Cell Biology, and Biotechnology."
+          }
+        ]
+      },
+      {
+        "name": "key_topics_neet_chemistry",
+        "trainingPhrases": [
+          {
+            "parts": [
+              {
+                "text": "What are the key topics in Chemistry for NEET preparation?"
+              }
+            ]
+          }
+        ],
+        "responses": [
+          {
+            "text": "Important areas are Physical Chemistry (stoichiometry, thermodynamics), Organic Chemistry (functional groups, reactions), Inorganic Chemistry (periodic trends), and Equilibrium (acid-base equilibrium)."
+          }
+        ]
+      }
+     
+    ]
+  }
+  

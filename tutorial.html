@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Embedded Document</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+  <style>
+    /* General Reset */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    /* Body Styling */
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      background: linear-gradient(135deg, #e1f5fe, #f3e5f5);
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+    }
+
+    /* Document Container */
+    .doc-container {
+      width: 100%;
+      max-width: 1000px;
+      padding: 20px;
+      background: #ffffff;
+      border-radius: 12px;
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+      transition: all 0.3s ease;
+      overflow: hidden;
+    }
+
+    /* Container Hover Effect */
+    .doc-container:hover {
+      box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+      transform: translateY(-5px);
+    }
+
+    /* Title Styling */
+    .doc-container h1 {
+      color: #673ab7;
+      font-size: 26px;
+      text-align: center;
+      margin-bottom: 15px;
+    }
+
+    /* Subtitle Styling */
+    .doc-container p {
+      color: #555;
+      font-size: 16px;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    /* Iframe Styling */
+    .doc-iframe {
+      width: 100%;
+      height: 1000px;
+      border: none;
+      border-radius: 8px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    }
+
+    /* Responsive Design */
+    @media (max-width: 600px) {
+      .doc-container {
+        padding: 15px;
+      }
+      .doc-container h1 {
+        font-size: 22px;
+      }
+      .doc-container p {
+        font-size: 14px;
+      }
+      .doc-iframe {
+        height: 800px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="doc-container">
+    <h1>Embedded QuantumBot Document</h1>
+    <p>Explore more about our Imagine Cup Junior UAE 2024 project!</p>
+    <iframe 
+      class="doc-iframe"
+      src="https://docs.google.com/document/d/e/2PACX-1vQrSurKY4POFMNLY2oMPUH84_BC0LSZ84VQd-tlfBpsdvial8N08OsNbNpgORe6URSDckHmHpc39mJY/pub?embedded=true">
+    </iframe>
+  </div>
+
+</body>
+</html>
